@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from 'react-router-dom';
 import Portfolio from '../containers/Portfolio';
 import Sidebar from './banners/Banners';
@@ -11,7 +10,7 @@ import Sidebar from './banners/Banners';
 export default function App() {
   return (
     <Router>
-      <Link to="/"><Sidebar /></Link>
+      <Sidebar />
       <Switch>
         <Route exact path="/" component={Portfolio} />
       </Switch>
