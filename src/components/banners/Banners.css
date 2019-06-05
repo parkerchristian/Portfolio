@@ -3,25 +3,41 @@ aside {
   float: left;
   width: 20em;
   height: 100vh;
-  background: black;
-  opacity: .6;
-}
-header {
-  font: white;
-}
-footer {
-  bottom: 0;
-  height: 4em;
-  width: 19.6em;
-  position: absolute;
-  z-index: 100;
+  background: rgba(0, 0, 0, 0.57);
 }
 
 header, footer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  opacity: 1;
+}
+
+header {
+  flex-direction: column;
+}
+
+footer {
+  font-size: 2em;
+  bottom: 0;
+  width: 10em;
+  height: 4em;
+  position: absolute;
+  z-index: 100;
+}
+
+header img {
+  margin-top: 3em;
+  width: 15em;
+  height: 15em;
+  border-radius: 100%;
+}
+
+footer img {
+  width: 1em;
+  margin: 1em;
+}
+
+a, a:active, a:visited {
+  color: white;
 }
