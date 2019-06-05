@@ -1,17 +1,16 @@
 import React from 'react';
+import './Banners.css';
 
-export function Header() {
+export default function Sidebar() {
   return (
-    <header>
-      <h1>Header</h1>
-    </header>
-  );
-}
-
-export function Footer() {
-  return (
-    <footer>
-      <h2>Footer</h2>
-    </footer>
+    <aside>
+      <header>
+        <h1>Header</h1>
+      </header>
+      {/* <Info /> */}
+      <footer>
+        <h2>Footer</h2>
+      </footer>
+    </aside>
   );
 }

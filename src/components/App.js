@@ -6,16 +6,15 @@ import {
   Link
 } from 'react-router-dom';
 import Portfolio from '../containers/Portfolio';
-import { Header, Footer } from './banners/Banners';
+import Sidebar from './banners/Banners';
 
 export default function App() {
   return (
     <Router>
-      <Link to="/"><Header /></Link>
+      <Link to="/"><Sidebar /></Link>
       <Switch>
         <Route exact path="/" component={Portfolio} />
       </Switch>
-      <Footer />
     </Router>
   );
 }

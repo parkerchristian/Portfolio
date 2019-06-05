@@ -3,7 +3,9 @@ import React, { PureComponent } from 'react';
 export default class Portfolio extends PureComponent {
   render() {
     return (
-      <h1>content</h1>
+      <div style={{ paddingBottom: '5em' }}>
+        <h1 style={{ color: 'white' }}>BODY</h1>
+      </div>
     );
   }
 }
