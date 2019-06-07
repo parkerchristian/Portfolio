@@ -1,16 +1,19 @@
 * {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Julius Sans One', sans-serif;
 }
-img {
-  
+::selection {
+  color: rgb(0, 217, 255);
+  background: black;
 }
+
 body {
   background: rgb(237, 237, 237);
-  background-image: url('../assets/portlandb.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: fixed;
+  background-position: fixed;
   position: relative;
   min-height: 100vh;
 
