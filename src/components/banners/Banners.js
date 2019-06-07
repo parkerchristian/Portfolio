@@ -4,23 +4,35 @@ import './Banners.css';
 import headshot from '../../../assets/headshot.png';
 import lkin from '../../../assets/linkedin.png';
 import gthb from '../../../assets/github.jpg';
+import logo from '../../../assets/headshot.png';
 const github = 'https://github.com/parkerchristian';
 const linkedin = 'https://www.linkedin.com/in/parker-christian-helland';
 
-export default function Sidebar() {
+export function Sidebar() {
   return (
     <aside>
       <header>
         <Link to="/">
-          <img src={headshot} />
+          <figure>
+            <img src={headshot} />
+          </figure>
         </Link>
         <h1>Parker Helland</h1>
       </header>
       {/* <Info /> */}
-      <footer>
+      <nav>
         <a href={github}><img src={gthb} /></a>
         <a href={linkedin}><img src={lkin} /></a>
-      </footer>
+      </nav>
     </aside>
+  );
+}
+
+export function Footer() {
+  return (
+    <footer>
+      <h1>© 2019 Parker Helland</h1>
+      <img src={logo}></img>
+    </footer>
   );
 }

@@ -1,0 +1,90 @@
+.Main {
+  background-image: url('../../assets/stjohn.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+
+  section {
+    margin: 33rem 0 0 20.5em;
+  }
+
+  h4 {
+    margin-left: 1rem;
+  }
+
+  button {
+    padding: .71em;
+    margin: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.584);
+    border: 2px solid;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: background .3s, color 0.6s linear;
+  }
+
+  button:hover {
+    color: black;
+    background: rgba(255, 255, 255, 0.509);
+  }
+}
+
+.Spacing {
+  background-image: url('../../assets/green.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+  width: 100vw;
+}
+
+.Projects {
+  background-image: url('../../assets/mountains.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+
+  section {
+    margin: 0 0 0 25em;
+  }
+
+  button {
+    font-size: 2rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    position: relative;
+    top: 5rem;
+    left: 90vw;
+  }
+}
+
+.Resume {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  section {
+    margin: 0 0 0 20vw;
+  }
+
+  img {
+    height: 70vh;
+  }
+}
