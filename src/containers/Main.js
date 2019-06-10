@@ -12,7 +12,7 @@ export default class Main extends PureComponent {
             <button>Dev Projects</button>
           </a>
           <a href="#resume">
-            <button>Resume</button>
+            <button>resumé</button>
           </a>
         </section>
       </div>

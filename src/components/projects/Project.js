@@ -76,7 +76,7 @@ function Final() {
     <>
       <h1>Final Project</h1>
       <figcaption>
-        <h2>COMING SOON ! 6/21/19</h2>
+        <h2>COMING SOON!! 6/21/19</h2>
       </figcaption>
     </>
   );

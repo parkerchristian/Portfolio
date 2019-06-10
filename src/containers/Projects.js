@@ -9,9 +9,8 @@ export default class Projects extends PureComponent {
         <a href="#main">
           <button>Top</button>
         </a>
+        <center style={{ justifySelf: 'center' }}>(Hover for details)</center>
         <section>
-          <h1>PROJECTS</h1>
-          <span>(Hover for details)</span>
           <Project />
         </section>
       </div>

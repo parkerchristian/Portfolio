@@ -35,11 +35,16 @@ figure {
   border-radius: 100%;
   background: black;
   overflow: hidden;
-  box-shadow: 4px 1px 9px rgba(255, 255, 255, 0.543);
+  box-shadow: 4px 1px 9px rgba(0, 0, 0, 0.344);
 }
-header img {
-  margin: -1.5rem 0 0 0;
-  width: 11rem;
+figure img {
+  margin: -3rem 0rem 0 -2rem;
+  width: 15rem;
+}
+
+header h1 img {
+  margin-top: 1rem;
+  width: 10em;
 }
 
 nav img {
@@ -71,7 +76,5 @@ footer h1 {
 }
 footer img {
   margin-right: 1rem;
-  width: 3rem;
   height: 3rem;
-  border-radius: 100%;
 }

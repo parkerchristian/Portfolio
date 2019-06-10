@@ -10,7 +10,6 @@ export default class Resume extends PureComponent {
           <button>Top</button>
         </a>
         <section>
-          <h1>My Resume!</h1>
           <a href="../../assets/Resume.pdf">
             <img src={resume}/>
           </a>
