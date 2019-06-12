@@ -12,9 +12,23 @@
   section {
     margin: 33rem 0 0 20.5em;
   }
-
   h4 {
     margin-left: 1rem;
+  }
+
+  h5 a {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.5em;
+    position: absolute;
+    top: 95vh;
+    left: 93vw;
+  }
+  
+  h5 a:hover::after {
+    content: "Photo:";
+    position: relative;
+    top: -1.2rem;
+    right: 3.5rem;
   }
 
   button {
@@ -54,13 +68,20 @@
   color: white;
   display: flex;
   align-items: center;
+  flex-direction: column;
 
   section {
-    margin: 0 0 0 18em;
+    margin: -4rem 0 0 23.5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
   }
   
   center {
-    align-self: flex-start;
+    justify-self: flex-start;
     text-align: center;
     font-size: .9rem;
     margin: 0 0 0 0;
@@ -68,8 +89,8 @@
 
   button {
     position: relative;
-    top: -20rem;
-    left: 90vw;
+    top: 2rem;
+    left: 42.5vw;
     padding: .71em;
     font-size: 1.5em;
     font-weight: bold;
@@ -100,7 +121,7 @@
   justify-content: center;
   
   section {
-    margin: 0 0 0 6rem;
+    margin: 0 0 0 0em;
   }
 
   button {

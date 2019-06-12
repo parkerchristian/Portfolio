@@ -14,6 +14,7 @@ export default class Main extends PureComponent {
           <a href="#resume">
             <button>resumé</button>
           </a>
+          <h5><a href="http://www.jarreddecker.com">Jarred Decker</a></h5>
         </section>
       </div>
     );

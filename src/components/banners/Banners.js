@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Banners.css';
 // import headshot from '../../../assets/headshot.png';
-import lkin from '../../../assets/linkedin.png';
+import lkin from '../../../assets/linkedinblack.png';
 import gthb from '../../../assets/github.jpg';
-import logo from '../../../assets/cube.png';
-import parker from '../../../assets/P.png';
+import logo from '../../../assets/cube2.png';
+import parker from '../../../assets/footertag.png';
+import email from '../../../assets/email1.png';
 const github = 'https://github.com/parkerchristian';
 const linkedin = 'https://www.linkedin.com/in/parker-christian-helland';
 
@@ -13,17 +13,18 @@ export function Sidebar() {
   return (
     <aside>
       <header>
-        <Link to="/">
+        <a href="#main">
           <figure>
             <img src={logo} />
           </figure>
-        </Link>
-        <h1><img src={parker} /></h1>
+        </a>
+        {/* <h1><img src={parker} /></h1> */}
       </header>
       {/* <Info /> */}
       <nav>
-        <a href={github}><img src={gthb} /></a>
-        <a href={linkedin}><img src={lkin} /></a>
+        <a href="mailto:hellandp@gmail.com"><img src={email} style={{ background: 'white', borderRadius: '15%' }}/></a>
+        <a href={github}><img src={gthb} style={{ borderRadius: '100%', background: 'black' }} /></a>
+        <a href={linkedin}><img src={lkin} style={{ background: 'white', borderRadius: '20%' }}/></a>
       </nav>
     </aside>
   );
