@@ -34,7 +34,7 @@ function Marvel() {
             <p>
               <a href="https://github.com/parkerchristian/marvel-matches">Github</a>
             </p><br/>
-            <p>Users sign in with FireBase Auth stored in Firebase Data Base. Search Marvel&apos;s Api, favorite characters them compare which comics they appear in together.</p>
+            <p>Users sign in with FireBase Auth which is stored in Firebase Data Base. Search Marvel&apos;s Api, favorite multiple characters then compare which comics they appear in together.</p>
           </div>
         </div>
       </div>
