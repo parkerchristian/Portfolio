@@ -10,7 +10,7 @@
   display: flex;
 
   section {
-    margin: 33rem 0 0 20.5em;
+    margin: 33rem 0 0 20em;
   }
   h4 {
     margin-left: 1rem;
@@ -116,18 +116,18 @@
   width: 100vw;
   height: 100vh;
   color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   
   section {
-    margin: 0 0 0 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0 0 0em;
   }
 
   button {
     position: relative;
-    top: -19rem;
-    left: 60vw;
+    top: 3rem;
+    left: 90vw;
     
     padding: .71em;
     font-size: 1.5em;
@@ -150,5 +150,26 @@
   img {
     height: 70vh;
     box-shadow: 2px 8px 9px 6px rgba(0, 0, 0, 0.392);
+  }
+
+  footer {
+    background: rgb(28, 28, 28);
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+    color: white;
+
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  footer h1 {
+    margin-right: 1rem;
+  }
+  footer img {
+    margin-right: 1rem;
+    height: 3rem;
   }
 }

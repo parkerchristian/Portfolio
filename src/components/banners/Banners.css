@@ -1,6 +1,7 @@
 aside {
   display: block;
   position: fixed;
+  z-index: 100;
   float: left;
   width: 20rem;
   height: 100vh;
@@ -47,7 +48,7 @@ header h1 img {
 }
 
 nav img {
-  width: 2.5rem;
+  width: 2.3rem;
   margin: 1rem;
 }
 nav img:hover {

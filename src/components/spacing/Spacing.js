@@ -12,6 +12,7 @@ export default function Spacing() {
     justifyContent: 'center',
     letterSpacing: '.5em',
   };
+  
   return (
     <>
       <div style={css}><span>ART TECH SCIENCE</span></div>

@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
 } from 'react-router-dom';
 import Main from '../containers/Main';
-import { Sidebar, Footer } from './banners/Banners';
+import { Sidebar } from './banners/Banners';
 import Projects from '../containers/Projects';
 import Spacing from '../components/spacing/Spacing';
 import Resume from '../containers/Resume';
@@ -27,7 +27,7 @@ export default function App() {
       <Projects />
       <div style={css}><a style={{ color: 'black' }} href="#resume">resumé</a></div>
       <Resume />
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   );
 }
