@@ -63,6 +63,10 @@
     }
   }
   @media only screen and (max-width: 425px) {
+    background-image: url('../../assets/stjohn.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    width: 100vw;
     section {
       position: absolute;
       z-index: 1;
@@ -178,8 +182,10 @@
     background: rgba(255, 255, 255, 0.509);
   }
   @media only screen and (max-width: 425px) {
-    background-size: auto;
+    background-image: url('../../assets/wood.jpg');
+    background-repeat: no-repeat;
     background-attachment: fixed;
+
     width: fit-content;
     height: 160vh;
     section {
@@ -262,9 +268,12 @@
     height: 3rem;
   }
   @media only screen and (max-width: 425px) {
+    background-image: url('../../assets/snow.jpeg');
+    background-repeat: no-repeat;
+    width: auto;
     background-size: auto;
     background-attachment: fixed;
-    width: 100vw;
+
 
     height: 92.5vh;
     section {
