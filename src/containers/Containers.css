@@ -63,6 +63,7 @@
     }
   }
   @media only screen and (max-width: 425px) {
+    background-size: contain;
     section {
       position: absolute;
       z-index: 1;
@@ -78,11 +79,10 @@
       display: none;
     }
     section div {
-      margin-top: 21rem;
-      margin-bottom: 2rem;
+      margin-top: 35vh;
     }
     button {
-      margin-top: 2rem;
+      margin-top: 2.5rem;
       margin-bottom: 0rem;
     }
   }
@@ -179,6 +179,9 @@
     background: rgba(255, 255, 255, 0.509);
   }
   @media only screen and (max-width: 425px) {
+    background-size: auto;
+    background-attachment: fixed;
+    width: fit-content;
     height: 160vh;
     section {
       margin: 0rem 0 0 1rem;
@@ -260,6 +263,10 @@
     height: 3rem;
   }
   @media only screen and (max-width: 425px) {
+    background-size: auto;
+    background-attachment: fixed;
+    width: 100vw;
+
     height: 92.5vh;
     section {
       margin-top: 4rem;
