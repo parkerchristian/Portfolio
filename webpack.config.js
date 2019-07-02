@@ -8,7 +8,7 @@ module.exports = {
     filename: 'bundle.[hash].js'
   },
   devServer: {
-    port: 7890,
+    port: 9999,
     historyApiFallback: true
   },
   plugins: [
@@ -57,7 +57,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(jpeg|jpg|png|svg)$/,
+        test: /\.(jpeg|jpg|png|svg|pdf)$/,
         use: {
           loader: 'url-loader',
           options: { limit: 1000 },
