@@ -74,8 +74,11 @@
       height: 100vh;
     }
     h4, h4 span {
-      margin: .2rem 0 0 .7rem;
+      margin: .2rem 0 0 0;
       display: block;
+    }
+    h4 {
+      margin-left: .7rem;
     }
     h5 a {
       top: 70vh;
@@ -199,6 +202,13 @@
     center {
       display: none;
     }
+  }
+}
+
+.Click {
+  visibility: hidden;
+  @media only screen and (max-width: 425px) {
+    visibility: visible;
   }
 }
 

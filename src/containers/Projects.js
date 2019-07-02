@@ -7,12 +7,14 @@ export default class Projects extends PureComponent {
     return (
       <div id="projects" className={styles.Projects}>
         <center>(Hover for details)</center>
+        <span className={styles.Click}>(Click for deatils)</span>
         <a href="#main">
           <button>Top</button>
         </a>
         <section>
           <Project />
         </section>
+        <span className={styles.Click}>(Click for deatils)</span>
       </div>
     );
   }
