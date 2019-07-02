@@ -2,8 +2,7 @@
   background-image: url('../../assets/stjohn.jpg');
   background-attachment: fixed;
   background-position: center;
-
-  background-size: auto;
+  background-size: cover;
   width: auto;
   height: 100vh;
   color: white;
@@ -63,7 +62,6 @@
     }
   }
   @media only screen and (max-width: 425px) {
-    
     section {
       position: absolute;
       z-index: 1;
@@ -90,13 +88,13 @@
 
 .Spacing {
   background-image: url('../../assets/white/whitetech2.png');
-  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 50vh;
   width: 100vw;
+  height: 50vh;
   @media only screen and (max-width: 425px) {
      background-image: none;
+     visibility: hidden;
      height: 0;
      width: 0;
   }
@@ -133,9 +131,9 @@
 
 .Projects {
   background-image: url('../../assets/wood.jpg');
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   color: white;
   display: flex;
@@ -179,11 +177,6 @@
     background: rgba(255, 255, 255, 0.509);
   }
   @media only screen and (max-width: 425px) {
-    background-image: url('../../assets/wood.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-    width: fit-content;
     height: 160vh;
     section {
       margin: 0rem 0 0 1rem;
@@ -202,13 +195,11 @@
 
 .Resume {
   background-image: url('../../assets/snow.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
   background-attachment: fixed;
-  width: 100vw;
+  background-size: cover;
+  width: auto;
   height: 100vh;
   color: black;
-  
   section {
     display: flex;
     align-items: center;
@@ -265,13 +256,6 @@
     height: 3rem;
   }
   @media only screen and (max-width: 425px) {
-    background-image: url('../../assets/snow.jpeg');
-    background-repeat: no-repeat;
-    width: auto;
-    background-size: auto;
-    background-attachment: fixed;
-
-
     height: 92.5vh;
     section {
       margin-top: 4rem;
