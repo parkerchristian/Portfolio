@@ -12,15 +12,14 @@ const linkedin = 'https://www.linkedin.com/in/parker-christian-helland';
 export function Sidebar() {
   return (
     <aside>
-      <header>
-        <a href="#main">
+      <a href="#main">
+        <header>
+          <h1>Parker Helland</h1>
           <figure>
             <img src={logo} />
           </figure>
-        </a>
-        {/* <h1><img src={parker} /></h1> */}
-      </header>
-      {/* <Info /> */}
+        </header>
+      </a>
       <nav>
         <a href="mailto:hellandp@gmail.com"><img src={email} style={{ background: 'white', borderRadius: '15%' }}/></a>
         <a href={github}><img src={gthb} style={{ borderRadius: '100%', background: 'black' }} /></a>
@@ -33,7 +32,9 @@ export function Sidebar() {
 export function Footer() {
   return (
     <footer>
-      <img src={parker}></img>
+      <a href="#main">
+        <img src={parker}></img>
+      </a>
     </footer>
   );
 }

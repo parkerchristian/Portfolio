@@ -17,7 +17,9 @@ export default class Resume extends PureComponent {
           </a>
         </section>
         <footer>
-          <img src={parker}></img>
+          <a href="#main">
+            <img src={parker}></img>
+          </a>
         </footer>
       </div>
     );

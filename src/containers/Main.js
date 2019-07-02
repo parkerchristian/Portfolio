@@ -8,12 +8,14 @@ export default class Main extends PureComponent {
         <section>
           <h1>Parker Helland</h1>
           <h4>Portland Based Software Developer</h4>
-          <a href="#projects">
-            <button>Dev Projects</button>
-          </a>
-          <a href="#resume">
-            <button>resumé</button>
-          </a>
+          <div>
+            <a href="#projects">
+              <button>Dev Projects</button>
+            </a>
+            <a href="#resume">
+              <button>resumé</button>
+            </a>
+          </div>
           <h5><a href="http://www.jarreddecker.com">Jarred Decker</a></h5>
         </section>
       </div>
