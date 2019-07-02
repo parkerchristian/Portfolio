@@ -7,7 +7,11 @@ export default class Main extends PureComponent {
       <div id="main" className={styles.Main}>
         <section>
           <h1>Parker Helland</h1>
-          <h4>Portland Based Software Developer</h4>
+          <h4>Portland Based 
+            <span>
+              Software Developer
+            </span>
+          </h4>
           <div>
             <a href="#projects">
               <button>Dev Projects</button>

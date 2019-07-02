@@ -14,6 +14,9 @@
   h4 {
     margin-left: 1rem;
   }
+  h4 span {
+    margin-left: .4rem;
+  }
 
   h5 a {
     font-family: 'Tangerine', cursive;
@@ -70,6 +73,10 @@
       margin: 22.4vh 0 0 1rem;
       height: 100vh;
     }
+    h4, h4 span {
+      margin: .2rem 0 0 .7rem;
+      display: block;
+    }
     h5 a {
       top: 70vh;
       left: 80vw;
@@ -78,7 +85,7 @@
       display: none;
     }
     section div {
-      margin-top: 35vh;
+      margin-top: 30vh;
     }
     button {
       margin-top: 2.5rem;
