@@ -18,7 +18,7 @@ header, nav {
 header {
   flex-direction: column;
 }
-header h1 {
+header a h1 {
   visibility: hidden;
 }
 
@@ -104,14 +104,14 @@ footer a img {
     margin: -8.8rem 0rem 0rem -1.8rem;
     width: 15.1em;
   }
-  header h1 {
+  header a h1 {
+    width: 50vw;
     visibility: visible;
-    font-size: 1.1em;
+    font-size: 1.2em;
     letter-spacing: .1em;
     position: absolute;
     z-index: 500;
-    margin-left: .35rem;
-    align-self: flex-start;
+    margin: 1.5rem -11rem;
   }
   nav {
     top: -.35rem;
@@ -119,6 +119,7 @@ footer a img {
     justify-content: flex-end;
   }
   nav img {
+    z-index: 11;
     margin: .7rem;
   }
 }

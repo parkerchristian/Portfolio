@@ -14,7 +14,9 @@ export function Sidebar() {
     <aside>
       <a href="#main">
         <header>
-          <h1>Parker Helland</h1>
+          <a href="#main">
+            <h1>Parker Helland</h1>
+          </a>
           <figure>
             <img src={logo} />
           </figure>
