@@ -123,3 +123,45 @@ footer a img {
     margin: .7rem;
   }
 }
+
+@media only screen and (max-height : 500px) and (orientation: landscape) {
+  aside {
+    height: 0;
+    width: 100vw;
+  }
+  header {
+    position: absolute;
+    z-index: 9;
+  }
+  figure {
+    margin: 0rem;
+    width: 100vw;
+    height: 12vh;
+    border-radius: 0;
+    box-shadow: 4px 1px 9px rgba(0, 0, 0, 0.344);
+  }
+  figure img {
+    visibility: hidden;
+    margin: -8.8rem 0rem 0rem -1.8rem;
+    width: 15.1em;
+  }
+  header a h1 {
+    width: 50vw;
+    visibility: visible;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    position: absolute;
+    z-index: 500;
+    margin: 1rem -48vw;
+  }
+  nav {
+    top: -.85rem;
+    width: 100vw;
+    justify-content: flex-end;
+  }
+  nav img {
+    width: .9em;
+    z-index: 11;
+    margin: .7rem;
+  }
+}

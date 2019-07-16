@@ -95,6 +95,34 @@
       margin-bottom: 0rem;
     }
   }
+  @media only screen and (max-height : 500px) and (orientation: landscape) {
+    section {
+      position: absolute;
+      z-index: 1;
+      position: relative;
+      margin: 22.4vh 0 0 1rem;
+      height: 100vh;
+    }
+    section h1, section h4 {
+      position: relative;
+      top: 36vh;
+    }
+    h5 a {
+      font-size: 1.2em;
+      top: 66vh;
+      left: 91vw;
+    }
+    h5 a:hover::after {
+      display: none;
+    }
+    section div {
+      margin-top: 30vh;
+    }
+    button {
+      margin-top: 2.5rem;
+      margin-bottom: 0rem;
+    }
+  }
 }
 
 .Spacing {
@@ -203,11 +231,27 @@
       display: none;
     }
   }
+  @media only screen and (max-height : 500px) and (orientation: landscape) {
+    height: 115vh;
+    section {
+      margin: 0 0 0 0;
+      padding: 0 0 10vh 0;
+    }
+    button {
+      display: none;
+    }
+    center {
+      display: none;
+    }
+  }
 }
 
 .Click {
   visibility: hidden;
   @media only screen and (max-width: 425px) {
+    visibility: visible;
+  }
+  @media only screen and (max-height : 500px) and (orientation: landscape) {
     visibility: visible;
   }
 }
@@ -290,6 +334,17 @@
     }
     footer {
       justify-content: center;
+    }
+  }
+  @media only screen and (max-height : 500px) and (orientation: landscape) {
+    section {
+      margin-top: -10vh;
+    }
+    button {
+      visibility: hidden;
+    }
+    footer {
+      height: 3.7rem;
     }
   }
 }

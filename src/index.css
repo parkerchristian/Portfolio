@@ -21,9 +21,7 @@ body {
   width: 100vw;
   animation: fade .7s;
 }
-html {
-  width: 50vw;
-}
+
 
 @keyframes fade {
   0% {
