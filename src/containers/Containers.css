@@ -96,6 +96,8 @@
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
+    background-repeat: no-repeat;
+    background-size: cover;
     section {
       position: absolute;
       z-index: 1;
@@ -136,6 +138,10 @@
     background-image: none;
     height: 0;
     width: 0;
+  }
+  @media only screen and (max-height : 500px) and (orientation: landscape) {
+    background-repeat: no-repeat;
+    background-size: auto;
   }
 }
 
@@ -239,6 +245,8 @@
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 115vh;
     section {
       margin: 0 0 0 0;
@@ -344,6 +352,7 @@
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
+    background-size: auto;
     section {
       margin-top: -10vh;
     }
