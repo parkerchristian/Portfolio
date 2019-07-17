@@ -96,11 +96,9 @@
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
-    background-attachment: fixed;
     background-position: center;
-    background-size: cover;
-    width: auto;
-    height: 100vh;
+    background-size: auto;
+    width: 100%;
     section {
       position: absolute;
       z-index: 1;
@@ -143,10 +141,9 @@
     width: 0;
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
-    background-attachment: fixed;
     background-position: center;
     background-size: auto;
-    width: auto;
+    width: 100%;
   }
 }
 
@@ -358,11 +355,9 @@
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
-    background-attachment: fixed;
     background-position: center;
     background-size: auto;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     section {
       margin-top: -10vh;
     }
