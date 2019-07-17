@@ -96,8 +96,11 @@
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
+    width: auto;
+    height: 100vh;
     section {
       position: absolute;
       z-index: 1;
@@ -140,8 +143,10 @@
     width: 0;
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
   }
 }
 
@@ -245,8 +250,10 @@
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: auto;
     height: 115vh;
     section {
       margin: 0 0 0 0;
@@ -352,6 +359,10 @@
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
+    background-attachment: fixed;
+    background-position: center;
+    width: auto;
+    height: 100vh;
     background-size: auto;
     section {
       margin-top: -10vh;
