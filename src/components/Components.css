@@ -134,7 +134,6 @@
   }
   .flipcardfront:hover {
     visibility: hidden;
-    display: none;
   }
   .flipcardback {
     background: black;
@@ -182,6 +181,9 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+  }
+  .flipcardfront:hover {
+    visibility: hidden;
   }
   .flipcardback {
     background: black;
