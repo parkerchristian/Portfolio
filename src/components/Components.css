@@ -132,6 +132,10 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
+  .flipcardfront:hover {
+    visibility: hidden;
+    display: none;
+  }
   .flipcardback {
     background: black;
     transform: rotateY(180deg);
