@@ -96,14 +96,9 @@
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
-    width: 100vw;
-    height: 100vh;
-    background-position-x: center;
-    background-position-y: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    background-position: center;
+    width: 100%;
     section {
       position: absolute;
       z-index: 1;
@@ -359,8 +354,8 @@
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     position: static;
     background-position-x: center;
     background-position-y: center;
