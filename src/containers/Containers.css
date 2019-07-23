@@ -98,7 +98,8 @@
   @media only screen and (max-height : 500px) and (orientation: landscape) {
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: auto;
+    height: auto;
     section {
       position: absolute;
       z-index: 1;
