@@ -97,15 +97,14 @@
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
     width: auto;
-    height: 100%;
-    background-attachment: scroll;
+    height: auto;
     background-position: top;
     background-size: 100%;
     section {
       position: absolute;
       z-index: 1;
       position: relative;
-      margin: 42.4vh 0 0 1rem;
+      margin: 28.4vh 0 0 1rem;
       height: 100vh;
     }
     section h1, section h4 {
