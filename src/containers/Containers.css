@@ -109,7 +109,7 @@
     }
     section h1, section h4 {
       position: relative;
-      top: 36vh;
+      top: 53vh;
     }
     h5 a {
       font-size: 1.2em;
@@ -120,7 +120,7 @@
       display: none;
     }
     section div {
-      margin-top: 30vh;
+      margin-top: 47vh;
     }
     button {
       margin-top: 2.5rem;
