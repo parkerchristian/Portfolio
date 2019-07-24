@@ -96,7 +96,7 @@
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
-    width: auto;
+    width: 100vw;
     height: auto;
     background-position: top;
     background-size: 100%;
