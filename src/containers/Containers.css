@@ -3,7 +3,6 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   width: auto;
   height: 100vh;
   color: white;
@@ -138,7 +137,6 @@
   background-image: url('../../assets/white/whitetech2.png');
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
   width: 100vw;
   height: 50vh;
   @media only screen and (max-width: 700px) {
@@ -188,7 +186,6 @@
   background-image: url('../../assets/wood.jpg');
   background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat;
   width: auto;
   height: 100vh;
   color: white;
@@ -287,7 +284,6 @@
   background-image: url('../../assets/snow.jpeg');
   background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat;
   width: auto;
   height: 100vh;
   color: black;
