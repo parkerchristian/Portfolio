@@ -99,7 +99,7 @@
     width: auto;
     height: 100vh;
     background-position: center;
-    background-size: auto;
+    background-size: 100%;
     section {
       position: absolute;
       z-index: 1;
