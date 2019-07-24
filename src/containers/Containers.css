@@ -339,7 +339,8 @@
     height: 3rem;
   }
   @media only screen and (max-width: 700px) {
-    background-size: auto;
+    background-size: 100%;
+    width: auto;
     height: 92.5vh;
     section {
       margin-top: 4rem;
