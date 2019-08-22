@@ -53,10 +53,7 @@ function Napster() {
             <img src={sleepsterImg} />
           </div>
           <div className={styles.flipcardback}>
-            <h1>
-              <p>Backend App</p>
-              Built with:
-            </h1>
+            <h1>Built with:</h1>
             <p>Node JS / TCP Servers / AWS / MongoDB</p>
             <p>
               <a href="https://github.com/happy-trailblazers/sleepster-client">Live Site</a>
@@ -127,45 +124,3 @@ function Final() {
     </>
   );
 }
-
-// function Marvel() {
-//   return (
-//     <>
-//       <h1>Marvel Matches</h1>
-//       <img src={marvelImg} />
-//     </>
-//   );
-// }
-
-// function Napster() {
-//   return (
-//     <>
-//       <h1>Napster Clone: Sleepster</h1>
-//       <img src={sleepsterImg} />
-//     </>
-//   );
-// }
-
-// 'https://github.com/happy-trailblazers'
-
-// function BTWE() {
-//   return (
-//     <>
-//       <h1>Before The Week Ends</h1>
-//       <img src={btweImg} />
-//     </>
-//   );
-// }
-
-// function Final() {
-//   return (
-//     <>
-//       <h1>Workür</h1>
-//       <figcaption>
-//         <img src={workerImg} />
-//       </figcaption>
-//     </>
-//   );
-// }
-// 'https://parkerchristian.github.io/detective-game'
-// 'https://github.com/parkerchristian/detective-game'
