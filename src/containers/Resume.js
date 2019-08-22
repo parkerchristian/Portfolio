@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import styles from './Containers.css';
-import resume from '../../assets/Resume1.png';
-import pdf from '../../assets/Resume1.pdf';
+import resume from '../../assets/Resume.png';
+import pdf from '../../assets/Resume.pdf';
 import parker from '../../assets/footertag.png';
 
 export default class Resume extends PureComponent {
