@@ -50,20 +50,6 @@
     color: black;
     background: rgba(255, 255, 255, 0.509);
   }
-  @media only screen and (max-width: 600px) {
-    section {
-      position: absolute;
-      z-index: 150;
-      margin: 38rem 0 0 1rem;
-    }
-    h5 a {
-      top: 95vh;
-      left: 80vw;
-    }
-    h5 a:hover::after {
-      display: none;
-    }
-  }
   @media only screen and (max-width: 700px) {
     background-size: auto;
     section {
@@ -93,6 +79,21 @@
     button {
       margin-top: 2.5rem;
       margin-bottom: 0rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    background-attachment: local;
+    section {
+      position: absolute;
+      z-index: 150;
+      margin: 38rem 0 0 1rem;
+    }
+    h5 a {
+      top: 95vh;
+      left: 80vw;
+    }
+    h5 a:hover::after {
+      display: none;
     }
   }
   @media only screen and (max-height : 500px) and (orientation: landscape) {
@@ -136,6 +137,7 @@
   width: 100vw;
   height: 50vh;
   @media only screen and (max-width: 700px) {
+    background-attachment: local;
     visibility: hidden;
     background-image: none;
     height: 0;
@@ -233,6 +235,7 @@
     }
   }
   @media only screen and (max-width: 700px) {
+    background-attachment: local;
     background-size: auto;
     height: 160vh;
     section {
@@ -339,6 +342,7 @@
     height: 3rem;
   }
   @media only screen and (max-width: 700px) {
+    background-attachment: local;
     background-size: auto;
     width: 100%;
     height: 92.5vh;
