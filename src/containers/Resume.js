@@ -10,6 +10,7 @@ export default class Resume extends PureComponent {
       <div id="resume" className={styles.Resume}>
         <a href="#main">
           <button>Top</button>
+          
         </a>
         <section>
           <a href={pdf}>
